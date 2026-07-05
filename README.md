@@ -1,7 +1,26 @@
 # Hug Gravure — Site vitrine
 
-Page d'accueil moderne pour Hug Gravure (graveur & imprimeur, Kingersheim).
+Site multi-pages pour Hug Gravure (graveur & imprimeur, Kingersheim).
 Site statique (HTML/CSS/JS) servi via `serve`.
+
+## Pages
+- `index.html` — Accueil
+- `gravure.html` / `decoupe.html` / `impression.html` / `stickers.html` — pages métiers (photos machines, process en 4 étapes)
+- `devis.html` — formulaire de devis dynamique → envoyé à **kelianbassand@gmail.com**
+- `merci.html` — confirmation après envoi
+
+## ⚠️ Activer la réception des devis (1 fois, important)
+Le formulaire utilise le service gratuit **FormSubmit**. À la **toute première soumission**
+(une fois le site en ligne), FormSubmit envoie un e-mail de confirmation à
+`kelianbassand@gmail.com` : **cliquez sur le lien "Activate"** dans cet e-mail.
+Toutes les demandes suivantes arriveront ensuite directement dans la boîte mail,
+présentées sous forme de tableau. Pensez à vérifier les spams pour ce premier e-mail.
+
+## Remplacer / ajouter des photos
+Déposez vos photos dans le dossier `images/` et remplacez les blocs
+« 📷 Ajoutez ici… » dans les pages par une balise :
+`<img src="images/votre-photo.jpeg" alt="description" loading="lazy">`
+
 
 ## Aperçu en local
 
